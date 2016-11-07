@@ -11,6 +11,7 @@ import java.util.List;
  */
 @Component
 public class CategoryRepository {
+    //repository with all categories
     private static List<Category> ALL_CATEGORIES = Arrays.asList(
             new Category(1,"Technology"),
             new Category(2,"People"),
